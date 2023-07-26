@@ -1,3 +1,5 @@
+## Main Working
+
 import tkinter
 from linked_list import LinkedList
 from arrayDs import ArrayDs
@@ -27,6 +29,7 @@ def is_empty(obj, empty_var):
     empty_var.set('Yes' if obj.is_empty() else 'No')
 
 
+# To change the DS
 def change_ds(ds):
     clear_frame()
     canvas.delete('all')
