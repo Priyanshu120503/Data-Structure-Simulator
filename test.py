@@ -20,6 +20,7 @@ def edge_coordinate(c1, c2, r):
         x2, y2 = c1[0] + r * math.cos(math.radians(angle)), c1[1] + r * math.sin(math.radians(angle))
     return round(x1), round(y1), round(x2), round(y2)
 
+# Screen and Background Section
 
 window = tkinter.Tk()
 SCREEN_WIDTH = window.winfo_screenwidth()
